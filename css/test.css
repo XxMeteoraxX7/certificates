@@ -122,7 +122,7 @@ header {
 .cc_container, .nc_container {
     border: 5px groove darkgrey;
     margin: 8px;
-    padding: 90px;
+    padding: 96px;
     background: white;
     border-radius: 35%;
     line-height: 1.5rem;
@@ -163,6 +163,10 @@ header {
 
 #codecademy h2 {
     padding-bottom: 30px;
+}
+
+img {
+    border: 1px solid black;
 }
 
 .intro_title {
