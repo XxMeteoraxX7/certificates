@@ -13,16 +13,16 @@ body {
 
 }
 
-@media screen and (max-width: 1289px) {
+@media screen and (max-width: 1196px) {
     body {
         position: relative;
-        top: 74px;
+        top: 138px;
         width: 100%;
         text-align: center;
     }
 }
 
-@media screen and (max-width: 654px) {
+@media screen and (max-width: 623px) {
     body {
         top: 202px;
     }
@@ -91,6 +91,18 @@ header {
     text-shadow: darkred 1px 1px 1px;
     box-shadow: rgb(127, 62, 62) 2px 2px 3px;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 798px) {
+
+    .nav_buttons a {
+        border: none;
+        padding: 5px;
+        color: blue;
+        text-decoration: underline;
+        text-shadow: none;
+        box-shadow: none;
+    }
 }
 
 #codecademy, #nucamp {
