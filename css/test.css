@@ -22,19 +22,17 @@ body {
     }
 }
 
-@media screen and (max-width: 623px) {
+@media screen and (max-width: 798px) {
     body {
-        top: 202px;
+        top: 94px;
     }
 }
-/* @media screen and (max-width: 470px) {
+
+@media screen and (max-width: 535px) {
     body {
-        position: relative;
-        top: 266px;
-        width: 100%;
-        text-align: center;
+        top: 136px;
     }
-} */
+}
 
 .background {
     position: absolute;
@@ -99,6 +97,7 @@ header {
         border: none;
         padding: 2px;
         color: blue;
+        background: none;
         text-decoration: underline;
         text-shadow: none;
         box-shadow: none;
@@ -114,7 +113,7 @@ header {
     border-radius: 15%;
 }
 
-@media screen and (max-width: 798px) {
+@media screen and (max-width: 980px) {
 
     #codecademy, #nucamp {
         margin: 10px 100px;
@@ -125,10 +124,11 @@ header {
     }
 }
 
-@media screen and (max-width: 662px) {
+@media screen and (max-width: 688px) {
 
     #codecademy, #nucamp {
-        min-width: 400px;
+        min-width: 488px;
+        margin: 10px 40px;
     }
 }
 
@@ -144,11 +144,11 @@ header {
     margin-right: auto;
 }
 
-@media screen and (max-width: 798px) {
+@media screen and (max-width: 980px) {
 
     .cc_container, .nc_container {
         border: 5px groove darkgrey;
-        margin: 8px;
+        margin: 2px;
         padding: 60px;
         background: white;
         border-radius: 0%;
@@ -156,10 +156,10 @@ header {
     }
 }
 
-@media screen and (max-width: 662px) {
+@media screen and (max-width: 688px) {
 
     .cc_container, .nc_container {
-        min-width: 350px;
+        min-width: 438px;
     }
 }
 
@@ -227,15 +227,15 @@ img {
     border-radius: 50%;
 }
 
-@media screen and (max-width: 783px) {
+/* @media screen and (max-width: 783px) {
 
     #contact a {
         padding: 5px;
         border: none;
     }
-}
+} */
 
-@media screen and (max-width: 672px) {
+@media screen and (max-width: 798px) {
 
     #contact a {
         padding: 2px;
